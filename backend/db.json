@@ -1,0 +1,34 @@
+{
+  "Users": [
+    {
+      "id": "1",
+      "img": "/images/khabib.jpg",
+      "name": "Khabib",
+      "country": "Chechen",
+      "course": "ufc",
+      "result": 100
+    },
+    {
+      "id": "2",
+      "img": "/images/zidan.jpg",
+      "name": "Zidan",
+      "country": "France",
+      "course": "football",
+      "result": 98
+    },
+    {
+      "id": "c0c61420-3c5e-4e0d-ae40-37917363013e",
+      "name": "conor",
+      "country": "Tokyo",
+      "course": "Pingpong",
+      "result": "789"
+    },
+    {
+      "id": "372b5c16-dfd0-424d-b4ba-59a505d45bd0",
+      "name": "Abdulloh",
+      "country": "Uzbekistan",
+      "course": "IT",
+      "result": "99"
+    }
+  ]
+}

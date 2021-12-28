@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+/* list */
+/* list */
+/* list */
+/* list */
+/* list */
+/* list */
+/* list */
+/* list */
+/* list */
+.addigrok {
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid blue;
+  background-color: rgba(34, 75, 209, 0.829);
+  color: white;
+}
+.ContactsContainer {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.ListContainer {
+  border-bottom: 2px solid olive;
+  border-right: 2px solid olive;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.UserInfo {
+  display: flex;
+}
+.UserInfo img,
+h2 {
+  margin-right: 15px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icons i {
+  font-size: x-large;
+  margin-right: 10px;
+}
+
+.userImg {
+  width: 100px;
+  height: 80px;
+}
+
+/* form */
+/* form */
+/* form */
+/* form */
+/* form */
+/* form */
+/* form */
+/* form */
+/* form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 5px solid red; */
+  padding: 5px;
+}
+form input {
+  margin-top: 8px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+form input:focus {
+  border: 2px solid blue;
+  outline: none;
+}
+form input:last-child {
+  width: 323px;
+  border: none;
+  background-color: aqua;
+}
+
+/* detail */
+/* detail */
+/* detail */
+/* detail */
+/* detail */
+/* detail */
+/* detail */
+/* detail */
+/* detail */
+/* detail */
+
+.detailContainer {
+  display: flex;
+  justify-content: center;
+}
+.infoContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgb(49, 47, 47);
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+}

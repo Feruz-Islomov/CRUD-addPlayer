@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start2": "nodemon --watch backend --exec node --experimental-modules server.js",
+    "start": "json-server -p 3006 -w db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3",
+    "nodemon": "^2.0.12"
+  }
+}
